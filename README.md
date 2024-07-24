@@ -73,20 +73,20 @@ All notebook files provided in the `./code` directory are intended to run on Goo
 
 ```
 shap_behavior_estimate
-|- models
-|- roc_curves
-|- auroc
-|- shap_values
-   |- shap_values_tp
-   |- shap_values_tn
-   |- shap_values_fp
-   |- shap_values_fn
-|- test_values
-   |- test_values_tp
-   |- test_values_tn
-   |- test_values_fp
-   |- test_values_fn
-|- shap_test_values
+├── models
+├── roc_curves
+├── auroc
+├── shap_values
+   ├── shap_values_tp
+   ├── shap_values_tn
+   ├── shap_values_fp
+   ├── shap_values_fn
+├── test_values
+   ├── test_values_tp
+   ├── test_values_tn
+   ├── test_values_fp
+   ├── test_values_fn
+└── shap_test_values
 ```
 
 #### Running on other environments
