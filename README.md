@@ -56,7 +56,7 @@ See our [manuscript](URL) for details.
 .
 ├── code           : Jupyter notebook files
 ├── data           : Directory for dummy dataset and sample output files       
-├── figure        : Figures for README.md
+├── figure         : Figures for README.md
 ├── LICENSE        : License file
 └── README.md      : This file
 ```
