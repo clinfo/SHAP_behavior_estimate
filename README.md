@@ -87,7 +87,7 @@ See our [manuscript](URL) for details.
 
 All notebook files provided in the `./code` directory are intended to run on Google colaboratory. In this case, you can reproduce our flow by executing the provided codes in order.
 
-**Before execution, please build the following directory under `content/drive/MyDrive` in Google drive.**
+**Before runnning, please build the following directory under `content/drive/MyDrive` in Google drive.**
 
 ```
 shap_behavior_estimate
