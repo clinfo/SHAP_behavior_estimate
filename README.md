@@ -30,7 +30,7 @@ Again, this framework involves continuous mortality-prediction models and the SH
 
 See our [manuscript](URL) for details.
 
-![desc_fig](./figures/desc_summary.png)
+![desc_fig](./figure/desc_summary.png)
 
 ## Requirements
 
@@ -56,7 +56,7 @@ See our [manuscript](URL) for details.
 .
 ├── code           : Jupyter notebook files
 ├── data           : Directory for dummy dataset and sample output files       
-├── figures        : Figures for README.md
+├── figure        : Figures for README.md
 ├── LICENSE        : License file
 └── README.md      : This file
 ```
@@ -88,7 +88,7 @@ What is more, this transition is effectively depicted by our proposed framework!
 - **Rows**: Records of test values for each time point of each patient
 - **Columns**: Laboratory test items × 3, Patient_ID, and Time_point
 
-![desc_code_s1](./figures/desc_code_s1.png)
+![desc_code_s1](./figure/desc_code_s1.png)
 
 ---
 
@@ -111,7 +111,7 @@ In the code `2_prediction_model_construction.ipynb`, we construct LightGBM-based
     - `roc_curve_tp_[time_point]_cv_[cv_index].png`: ROC curve. Saved in `/data/roc_curve`.
     - `auroc_tp_[time_point].csv`: AUROC values. Saved in `/data/auroc`. This file includes AUROC values for each fold and the mean and SD.
 
-![desc_code_1](./figures/desc_code_1.png)
+![desc_code_1](./figure/desc_code_1.png)
 
 ---
 
@@ -134,7 +134,7 @@ In the code `2_SHAP_value_calculation.ipynb`, we applies SHAP to the constructed
 - **Rows**: The number of patient samples classified into each confusion matrix component
 - **Columns**: SHAP/Laboratory test values of each item × 3, Patient_ID
   
-![desc_code_2](./figures/desc_code_2.png)
+![desc_code_2](./figure/desc_code_2.png)
 
 ---
 
@@ -157,7 +157,7 @@ In the code `3_Data_join.ipynb`, we integrate the previously calculated SHAP val
 - **Rows**: Each SHAP/laboratory test value record
 - **Columns**: Patient_ID, Test_item (i.e., test item name), Test_value, SHAP_value, Time_point
 
-![desc_code_3](./figures/desc_code_3.png)
+![desc_code_3](./figure/desc_code_3.png)
 
 ---
 
@@ -187,7 +187,7 @@ Both functions allow the following arguments to be set:
 
 **Note**: If you are using data other than the default generated dummy data, please modify the `dict_color` defined within each function to specify the color for each test item.
 
-![desc_code_4](./figures/desc_code_4.png)
+![desc_code_4](./figure/desc_code_4.png)
 
 ---
 
@@ -229,7 +229,7 @@ SHAP behavior is visualized using the `Visualize_SHAP_behavior_via_UMAP` functio
 - `val_type`: Specifies the type of principal component to visualize. For example, selecting `SHAP_value` will display a 2D plot of the dimensionality reduction using SHAP values.
 - `cm_label`: Specifies the component of the confusion matrix (TP, FN, FP, or TN) to visualize.
 
-![desc_code_5](./figures/desc_code_5.png)
+![desc_code_5](./figure/desc_code_5.png)
 
 ---
 
@@ -251,7 +251,7 @@ First, execute the `Subtype_classification_main` function to display the dendrog
 
 **Note**: The dummy data is noise-free and has extremely simple trends in the test values, resulting in highly accurate clustering results with test values. However, since real-world data contains noise and consists of high-dimensional features, clustering using laboratory test values is inferior to clustering using SHAP values in its ability to identify patient states subtypes. Please review the [manuscript](URL) for more details.
 
-![desc_code_6](./figures/desc_code_6.png)
+![desc_code_6](./figure/desc_code_6.png)
 
 ---
 
@@ -285,7 +285,7 @@ All functions allow the following arguments to be adjusted:
 
 **Note**: If you are using data other than the default generated dummy data, modify the `dict_color` defined within each function to specify colors for each test item.
 
-![desc_code_7](./figures/desc_code_7.png)
+![desc_code_7](./figure/desc_code_7.png)
 
 ---
 
