@@ -65,7 +65,7 @@ See our [manuscript](URL) for details.
 
 ### Analysis steps
 
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1Q8Rd4JX9HuUrYCLRUixdJihipanudtrt) **ⅰ. Dummy EHR-data generation** 
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/1Q8Rd4JX9HuUrYCLRUixdJihipanudtrt) **ⅰ. Dummy EHR-data generation** 
 
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1S5L6lNZWXaPA5bQqhVu4MS0D_W9UWb6U) **ⅱ. Mortality prediction model construction** 
 
