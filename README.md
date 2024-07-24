@@ -63,6 +63,36 @@ See our [manuscript](URL) for details.
 
 ## Usage
 
+### Setup
+
+#### Running on Google colab
+
+All notebook files provided in the `./code` directory are intended to run on Google colaboratory. In this case, you can reproduce our flow by executing the provided codes in order.
+
+**Before execution, please build the following directory under `content/drive/MyDrive/` in Google drive.**
+
+```
+shap_behavior_estimate
+|- models
+|- roc_curves
+|- auroc
+|- shap_values
+   |- shap_values_tp
+   |- shap_values_tn
+   |- shap_values_fp
+   |- shap_values_fn
+|- test_values
+   |- test_values_tp
+   |- test_values_tn
+   |- test_values_fp
+   |- test_values_fn
+|- shap_test_values
+```
+
+#### Running on other environments
+
+You can also run the code in an environment other than Google colaboratory. If you duplicate this repository and run the code, you can reproduce the flow from any step by using the sample files included by default in the `./data` directory. **Note that you will need to change the paths to all input and output files included in the notebook.**
+
 ### ⅰ. Dummy EHR-data Generation
 
 In the code `s1_dummy_data_generation.ipynb`, we can generate dummy time-series EHR data. A Gaussian Mixture Model (GMM) is applied to create a dataset consisting of two patient groups that show clearly distinct changes in internal patinet states.
