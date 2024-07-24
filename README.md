@@ -93,6 +93,12 @@ shap_behavior_estimate
 
 You can also run the code in an environment other than Google colaboratory. If you duplicate this repository and run the code, you can reproduce the flow from any step by using the sample files included by default in the `./data` directory. **Note that you will need to change the paths to all input and output files included in the notebook.**
 
+### Analysis steps
+
+**1. Dummy EHR-data Generation** [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1Q8Rd4JX9HuUrYCLRUixdJihipanudtrt#scrollTo=BDHlDyLP5Dko)
+
+
+
 ### ⅰ. Dummy EHR-data Generation
 
 In the code `s1_dummy_data_generation.ipynb`, we can generate dummy time-series EHR data. A Gaussian Mixture Model (GMM) is applied to create a dataset consisting of two patient groups that show clearly distinct changes in internal patinet states.
