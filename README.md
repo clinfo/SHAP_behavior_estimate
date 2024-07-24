@@ -22,7 +22,7 @@
 
 
 ## General Description
-This repository provides resources to reproduce the analysis flow introduced in the body of our manuscript. We applied mortality prediction models and its interpretation method (SHAP: SHapley Additive exPlanations) continuously over time to evaluate outcomes in cancer patients. This allowed us to estimate the temporal impact transitions of factors (which we call "SHAP behavior") that worsen the internal state of cancer patients and are directly related to future mortality.
+This repository provides resources to reproduce the analysis flow introduced in the body of our manuscript. We applied mortality prediction models and its interpretation method (SHAP: SHapley Additive exPlanations) continuously over time to evaluate outcomes in cancer patients. This allowed us to estimate the temporal impact transitions of factors (which we call **"SHAP behavior"**) that worsen the internal state of cancer patients and are directly related to future mortality.
 
 You can implement our proposed method using time-series EHR data that has undergone data curation and resampling processes as described in the manuscript. You can utilize the dummy data generation process included in the provided codes to implement our proposed framework. The original data used in our study is not publicly available due to privacy concerns.
 
@@ -85,7 +85,7 @@ See our [manuscript](URL) for details.
 
 #### Running on Google colab
 
-All notebook files provided in the `./code` directory are intended to run on Google colaboratory. In this case, you can reproduce our flow by executing the provided codes in order.
+All notebook files provided in the `/code` directory are intended to run on Google colaboratory. In this case, you can reproduce our flow by executing the provided codes in order.
 
 **Before runnning, please build the following directory under `content/drive/MyDrive` in Google drive.**
 
@@ -109,7 +109,7 @@ shap_behavior_estimate
 
 #### Running on other environments
 
-You can also run the code in an environment other than Google colaboratory. If you duplicate this repository and run the code, you can reproduce the flow from any step by using the sample files included by default in the `./data` directory. **Note that you will need to change the paths to all input and output files included in the notebook.**
+You can also run the code in an environment other than Google colaboratory. If you duplicate this repository and run the code, you can reproduce the flow from any step by using the sample files included by default in the `/data` directory. **Note that you will need to change the paths to all input and output files included in the notebook.**
 
 ---
 
