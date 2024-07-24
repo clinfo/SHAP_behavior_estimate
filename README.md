@@ -65,21 +65,21 @@ See our [manuscript](URL) for details.
 
 ### Analysis steps
 
-**1. Dummy EHR-data generation** [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1Q8Rd4JX9HuUrYCLRUixdJihipanudtrt#scrollTo=BDHlDyLP5Dko)
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1Q8Rd4JX9HuUrYCLRUixdJihipanudtrt) **ⅰ. Dummy EHR-data generation** 
 
-**1. Mortality prediction model construction** [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1S5L6lNZWXaPA5bQqhVu4MS0D_W9UWb6U)
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1S5L6lNZWXaPA5bQqhVu4MS0D_W9UWb6U) **ⅱ. Mortality prediction model construction** 
 
-**1. SHAP value calculation** [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1F6uHaDKdiof9Skyh3ASpBK3rek1lO47Y)
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1F6uHaDKdiof9Skyh3ASpBK3rek1lO47Y#scrollTo=z-cwm3JUsiZA) **ⅲ. SHAP value calculation** 
 
-**1. Data integration** [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)]()
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1znijYNMBaIwoOhGRTyyHFw15h65k6iRt) **ⅳ. Data integration** 
 
-**1. SHAP behavior estimation for each item** [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)]()
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1NKFGHA1EP5W191zwrEhRP5eG3KfR0SDD) **ⅴ. SHAP behavior estimation for each item** 
 
-**1. Visualize trajectory of SHAP behavior using UMAP** [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)]()
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1zMPScMzkxYuRxtOVKnf0RM3EEqLK7XAo) **ⅵ. Visualize trajectory of SHAP behavior using UMAP** 
 
-**1. Subtype classification** [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)]()
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1chY7raX2nmbzqupjeS2XLawHcezYSljk) **ⅶ. Subtype classification**
 
-**1. Subtype visualization of SHAP behavior and trajectory** [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)]()
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1xBuGuB0koDE5NeSzRO5zqW_zupGLKI7Z) **ⅷ. Subtype visualization of SHAP behavior and trajectory** 
 
 ### Setup
 
@@ -111,6 +111,7 @@ shap_behavior_estimate
 
 You can also run the code in an environment other than Google colaboratory. If you duplicate this repository and run the code, you can reproduce the flow from any step by using the sample files included by default in the `./data` directory. **Note that you will need to change the paths to all input and output files included in the notebook.**
 
+---
 
 ### ⅰ. Dummy EHR-data Generation
 
