@@ -63,6 +63,24 @@ See our [manuscript](URL) for details.
 
 ## Usage
 
+### Analysis steps
+
+**1. Dummy EHR-data generation** [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1Q8Rd4JX9HuUrYCLRUixdJihipanudtrt#scrollTo=BDHlDyLP5Dko)
+
+**1. Mortality prediction model construction** [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1S5L6lNZWXaPA5bQqhVu4MS0D_W9UWb6U)
+
+**1. SHAP value calculation** [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1F6uHaDKdiof9Skyh3ASpBK3rek1lO47Y)
+
+**1. Data integration** [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)]()
+
+**1. SHAP behavior estimation for each item** [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)]()
+
+**1. Visualize trajectory of SHAP behavior using UMAP** [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)]()
+
+**1. Subtype classification** [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)]()
+
+**1. Subtype visualization of SHAP behavior and trajectory** [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)]()
+
 ### Setup
 
 #### Running on Google colab
@@ -92,11 +110,6 @@ shap_behavior_estimate
 #### Running on other environments
 
 You can also run the code in an environment other than Google colaboratory. If you duplicate this repository and run the code, you can reproduce the flow from any step by using the sample files included by default in the `./data` directory. **Note that you will need to change the paths to all input and output files included in the notebook.**
-
-### Analysis steps
-
-**1. Dummy EHR-data Generation** [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1Q8Rd4JX9HuUrYCLRUixdJihipanudtrt#scrollTo=BDHlDyLP5Dko)
-
 
 
 ### ⅰ. Dummy EHR-data Generation
