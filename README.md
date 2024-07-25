@@ -67,19 +67,19 @@ See our [manuscript](URL) for details.
 
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/clinfo/SHAP_behavior_estimate/blob/main/code/s1_dummy_data_generation.ipynb) **ⅰ. Dummy EHR-data generation** 
 
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1S5L6lNZWXaPA5bQqhVu4MS0D_W9UWb6U) **ⅱ. Mortality prediction model construction** 
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/clinfo/SHAP_behavior_estimate/blob/main/code/1_prediction_model_construction.ipynb) **ⅱ. Mortality prediction model construction** 
 
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1F6uHaDKdiof9Skyh3ASpBK3rek1lO47Y#scrollTo=z-cwm3JUsiZA) **ⅲ. SHAP value calculation** 
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/clinfo/SHAP_behavior_estimate/blob/main/code/2_SHAP_value_calculation.ipynb) **ⅲ. SHAP value calculation** 
 
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1znijYNMBaIwoOhGRTyyHFw15h65k6iRt) **ⅳ. Data integration** 
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/clinfo/SHAP_behavior_estimate/blob/main/code/3_Data_join.ipynb) **ⅳ. Data integration** 
 
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1NKFGHA1EP5W191zwrEhRP5eG3KfR0SDD) **ⅴ. SHAP behavior estimation for each item** 
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/clinfo/SHAP_behavior_estimate/blob/main/code/4_SHAP_behavior_visualization.ipynb) **ⅴ. SHAP behavior estimation for each item** 
 
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1zMPScMzkxYuRxtOVKnf0RM3EEqLK7XAo) **ⅵ. Visualize trajectory of SHAP behavior using UMAP** 
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/clinfo/SHAP_behavior_estimate/blob/main/code/5_Visualize_SHAP_behavior_via_UMAP.ipynb) **ⅵ. Visualize trajectory of SHAP behavior using UMAP** 
 
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1chY7raX2nmbzqupjeS2XLawHcezYSljk) **ⅶ. Subtype classification**
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/clinfo/SHAP_behavior_estimate/blob/main/code/6_Subtype_classification.ipynb) **ⅶ. Subtype classification**
 
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1xBuGuB0koDE5NeSzRO5zqW_zupGLKI7Z) **ⅷ. Subtype visualization of SHAP behavior and trajectory** 
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/clinfo/SHAP_behavior_estimate/blob/main/code/7_SHAP_behavior_and_UMAP_for_subtype.ipynb) **ⅷ. Subtype visualization of SHAP behavior and trajectory** 
 
 ### Setup
 
@@ -144,7 +144,7 @@ What is more, this transition is effectively depicted by our proposed framework!
 
 ### ⅱ. Mortality Prediction Model Construction
 
-In the code `2_prediction_model_construction.ipynb`, we construct LightGBM-based mortality prediction models using time-series EHR data. The model we refer to as the *n-day model* predicts mortality n days later. Here, *n* represents any time point closer to death than the negative time point (in our [manuscript](URL), we set the negative time point to 168 days, and *n* ranges from 1 to 90).
+In the code `1_prediction_model_construction.ipynb`, we construct LightGBM-based mortality prediction models using time-series EHR data. The model we refer to as the *n-day model* predicts mortality n days later. Here, *n* represents any time point closer to death than the negative time point (in our [manuscript](URL), we set the negative time point to 168 days, and *n* ranges from 1 to 90).
 
 #### Overview of this Code
 
@@ -285,7 +285,7 @@ SHAP behavior is visualized using the `Visualize_SHAP_behavior_via_UMAP` functio
 
 ### ⅶ. Subtype Classification
 
-In the code `6_Subtype_classification`, we classifies patient state subtypes using the SHAP value patterns or laboratory test value patterns for each patient at one day before death.
+In the code `6_Subtype_classification.ipynb`, we classifies patient state subtypes using the SHAP value patterns or laboratory test value patterns for each patient at one day before death.
 
 #### Input and Output
 
