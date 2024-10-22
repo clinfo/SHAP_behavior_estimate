@@ -1,5 +1,6 @@
-# What Happens to Cancer Patients before They Die? Extracting the Dynamics of Mortality Factors using Continuous Mortality-Prediction and SHAP Behaviors
-**Authors:** Tatsuki Yamamoto, Minoru Sakuragi, Yuzuha Tuji, Yuji Okamoto, Eiichiro Uchino, Motoko Yanagita, Mayumi Kamada, and Yasushi Okuno
+# What Happens Before Cancer Patients Die? Revealing Mortality Dynamics Using Machine Learning
+
+**Authors:** Tatsuki Yamamoto, Minoru Sakuragi, Yuzuha Tuji, Yuji Okamoto, Eiichiro Uchino, Motoko Yanagita, Manabu Muto, Mayumi Kamada, and Yasushi Okuno
 
 ---
 ## Contents
