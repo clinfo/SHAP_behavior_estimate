@@ -31,7 +31,7 @@ Again, this framework involves continuous mortality-prediction models and the SH
 
 See our [manuscript](URL) for details.
 
-![desc_fig](./figure/desc_ga.png)
+![desc_fig](./figure/desc_summary.png)
 
 ## Requirements
 
