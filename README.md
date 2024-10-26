@@ -343,18 +343,6 @@ All functions allow the following arguments to be adjusted:
 # Contact
 - Tatsuki Yamamoto: yamamoto.tatsuki.25d@[at].kyoto-u.ac.jp
 
-# Reference
-bioRxiv
-```
-@article{---,
-  title={---},
-  author={---},
-  journal={---},
-  pages={---},
-  year={---},
-  publisher={---}
-}
-```
   
 
 
